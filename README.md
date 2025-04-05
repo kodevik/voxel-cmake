@@ -5,4 +5,4 @@ A successor to the initial voxel engine (also on my profile). Instead of the sin
 Before configuring and generating makefiles, make sure that the correct directory for GLFW is set in CMakeLists.txt, i.e. replace `add_subdirectory(../libraries/glfw-master glfw)` with `add_subdirectory(path/to/glfw-master glfw)`. If you would like to statically link the C++ standard library when using MinGW, uncomment the last line in CMakeLists.txt.
 
 ## Controls
-WASD controls can be used in conjunction with the mouse to navigate the map. To go jump, press space.
+WASD controls can be used in conjunction with the mouse to navigate the map. To jump, press space.
